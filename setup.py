@@ -5,7 +5,7 @@ import sys
 
 from setuptools import setup
 
-has_enum = sys.version_info >= (3, 4)
+has_enum = True
 
 readme = """
 enum-compat
